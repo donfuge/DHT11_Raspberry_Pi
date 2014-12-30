@@ -1,0 +1,6 @@
+#!/bin/bash
+
+RRD_DB="/home/pi/rrd_db/temperature.rrd"
+GRAPH_DIR="/var/www/"
+GET_TEMP="/home/pi/humidity/DHT11_Raspberry_Pi/getTemperature.py 11 4"
+GET_HUMID="/home/pi/humidity/DHT11_Raspberry_Pi/getHumidity.py 11 4"
